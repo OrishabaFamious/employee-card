@@ -1,31 +1,51 @@
 .joy{ 
     height: 700px;
     width: 600px;
-    background-color: seagreen;
-    padding-top: 100px;
+    padding-top: 10px;
+    background-color: black; 
 }
 .submain{
     height: 400px;
     width: 250px;
     background-color: white;
     margin: auto;
+    border-radius: 1cm;
+    text-align: center;
 }
+.submain p{
+    margin-top: 20px;
+}
+.submain h3{
+    margin-top: 0;
+}
+.submain h2{
+    margin-bottom: 0;
+
+}
+
 .upper{
     height: 100px;
     width: 250px;
     background-color: red;
     padding-top: 15px;
+    border-top-right-radius: 1cm;
+    border-top-left-radius: 1cm;
+    text-align: center;
+    color: white;
 }
 .small{
     height: 20px;
     width: 100px;
     background-color: black;
     margin: auto;
+    border-radius: 5cm;
 }
-.imageholder{
-    height: 20px;
+img{
+    height: 120px;
     width: 100px;
-    padding-top: 100px;
+    /* padding-left: 80px;
+    padding-top: 30px; */
+    margin-bottom: 20px;
 
 
 }
